@@ -3,8 +3,7 @@
 
 
  
-
-
+/* Elem (típus) szelektor
 
 
 
@@ -100,4 +99,40 @@ img {
 
  body {
     background-color: brown;
- }
+    background-image: url(../images/hatterkep.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h3::before {
+    content:"";
+}
+
+h3::after {
+    content:"";
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+}
+
+.reszponzivteszt {
+    border: 5px solid white;
+    padding: 50px;
+    width: 500px;
+    background-color: aqua;
+    opacity: 0.5;
+}
+
+.reszponzivteszt {
+    border: 5px solid white;
+    padding: 50px;
+    width: 50px;
+    background-color: rgb(0, 224, 11);
+    opacity: 0.5;
+}
