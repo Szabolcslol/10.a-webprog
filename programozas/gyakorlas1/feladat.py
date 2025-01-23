@@ -1,0 +1,2 @@
+
+print('Szia\nMiki')
