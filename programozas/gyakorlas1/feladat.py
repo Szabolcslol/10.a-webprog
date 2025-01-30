@@ -1,2 +1,2 @@
 
-print('Szia\nMiki')
+print('Szia\Hello')
