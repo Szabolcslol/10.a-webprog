@@ -1,12 +1,22 @@
-nev ="Szabolcs"
-nev2 = "Levente"
-szam = 17
-nap = "Hétfő"
-nap2 = "Kedd"
-nap3 = "Szerda"
-nap4 = "Csütörtök"
-nap5 = "Péntek"
-nap6 = "Szombat"
-nap7 = "Vasárnap"
-print(f"A neved: {nev}, másik név={nev2}, ennnyi éves: {szam}")
-print(f"A hét napjai: {nap}\n{nap2}\n{nap3}\n{nap4}\n{nap5}\n{nap6}\n{nap7}")
+#Összeadja a két számot
+print(3+6)
+
+#Kivonja a két számot
+print(7-2)
+
+#Összeszorozza a két számot
+print(2*5)
+
+szam1 = 3
+szam2 = 6
+print(szam1 + szam2)
+
+if 5 > 3:
+  print("Öt nagyobb, mint három")
+
+  print("Ez az első üzenet")
+  print("Ez a második üzenet")  # 1 karakteres behúzás
+  print("Ez a harmadik üzenet")  # 4 karakteres behúzás
+  print("Ez a negyedik üzenet")  # 8 karakteres behúzás
+
+  
