@@ -19,6 +19,7 @@ if 5 > 3:
   print("Ez a harmadik üzenet")  # 4 karakteres behúzás
   print("Ez a negyedik üzenet")  # 8 karakteres behúzás
 
+
   x, y, z = "alma", "barack", "szilva"
   print(x)
   print(y)
@@ -56,7 +57,48 @@ if 5 > 3:
   szoveg="abcdef"
   print("2. karakter:", szoveg[1])
   print("Utolsó 2 karaktere:", szoveg[4:])
-  print("Középső 2 karakter:", szoveg[])
-  print("Minden második karakter:", szoveg[::2] )
+  print("Középső 2 karakter:", szoveg[3])
+  print("Minden második karakter:", szoveg[::2])
   print("Fordítva:", szoveg[::-1])
+
+
+# Elméleti rész:
+# Aritmetikai operátorok (+, -, *, /, //, %, **)
+# Összehasonlító operátorok (==, !=, <, >, <=, >=)
+# Logikai operátorok (and, or, not)
+
+# Aritmetikai operátorok
+a = 10
+b = 3
+
+print(a + b)  # Összeadás: 13
+print(a - b)  # Kivonás: 7
+print(a * b)  # Szorzás: 30
+print(a / b)  # Osztás: 3.333...
+print(a // b) # Egész osztás: 3
+print(a % b)  # Maradékos osztás: 1
+print(a ** b) # Hatványozás: 1000
+
+
+# Összehasonlító operátorok
+x = 5
+y = 10
+
+print(x == y)  # Egyenlő-e: False
+print(x != y)  # Nem egyenlő: True
+print(x < y)   # Kisebb: True
+print(x > y)   # Nagyobb: False
+print(x <= y)  # Kisebb vagy egyenlő: True
+print(x >= y)  # Nagyobb vagy egyenlő: False
+
+
+# Logikai operátorok
+x = 5
+y = 7
+
+print("x nagyobb mint 3 és kisebb mint 7:", x > 3 and x < 7)
+print("y nagyobb mint 3 és kisebb mint 7:", y > 3 and y < 7)
+print("x kisebb mint 6 vagy nagyobb mint 8:", x < 6 or x > 8)
+print("y kisebb mint 6 vagy nagyobb mint 8:", y < 6 or y > 8)
+
 
