@@ -1,0 +1,19 @@
+[Thu Mar 20 14:50:43.679765 2025] [mpm_winnt:notice] [pid 15500:tid 448] AH00455: Apache/2.4.58 (Win64) PHP/8.3.0 configured -- resuming normal operations
+[Thu Mar 20 14:50:43.679765 2025] [mpm_winnt:notice] [pid 15500:tid 448] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Thu Mar 20 14:50:43.679765 2025] [core:notice] [pid 15500:tid 448] AH00094: Command line: 'C:\\Users\\sprot\\Downloads\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/sprot/Downloads/UniServerZ/core/apache2 -f C:\\Users\\sprot\\Downloads\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\sprot\\Downloads\\UniServerZ\\core\\apache2'
+[Thu Mar 20 14:50:43.682269 2025] [mpm_winnt:notice] [pid 15500:tid 448] AH00418: Parent: Created child process 28092
+[Thu Mar 20 14:50:43.929491 2025] [mpm_winnt:notice] [pid 28092:tid 440] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 25 09:12:39.286246 2025] [core:warn] [pid 7568:tid 528] AH00098: pid file C:/Users/SziSza10A24/Desktop/UniServerZ/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 25 09:12:39.317647 2025] [mpm_winnt:notice] [pid 7568:tid 528] AH00455: Apache/2.4.58 (Win64) PHP/8.3.0 configured -- resuming normal operations
+[Tue Mar 25 09:12:39.317647 2025] [mpm_winnt:notice] [pid 7568:tid 528] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Mar 25 09:12:39.317647 2025] [core:notice] [pid 7568:tid 528] AH00094: Command line: 'C:\\Users\\SziSza10A24\\Desktop\\UniServerZ\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/SziSza10A24/Desktop/UniServerZ/UniServerZ/core/apache2 -f C:\\Users\\SziSza10A24\\Desktop\\UniServerZ\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\SziSza10A24\\Desktop\\UniServerZ\\UniServerZ\\core\\apache2'
+[Tue Mar 25 09:12:39.324652 2025] [mpm_winnt:notice] [pid 7568:tid 528] AH00418: Parent: Created child process 4552
+[Tue Mar 25 09:12:39.636729 2025] [mpm_winnt:notice] [pid 4552:tid 476] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 25 09:12:40.678439 2025] [php:error] [pid 4552:tid 1880] [client ::1:50021] script 'C:/Users/SziSza10A24/Desktop/UniServerZ/UniServerZ/www/index.php' not found or unable to stat
+[Tue Mar 25 09:14:35.663111 2025] [core:warn] [pid 1184:tid 484] AH00098: pid file C:/Users/SziSza10A24/Desktop/UniServerZ/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 25 09:14:35.683508 2025] [mpm_winnt:notice] [pid 1184:tid 484] AH00455: Apache/2.4.58 (Win64) PHP/8.3.0 configured -- resuming normal operations
+[Tue Mar 25 09:14:35.683508 2025] [mpm_winnt:notice] [pid 1184:tid 484] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Mar 25 09:14:35.683508 2025] [core:notice] [pid 1184:tid 484] AH00094: Command line: 'C:\\Users\\SziSza10A24\\Desktop\\UniServerZ\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/SziSza10A24/Desktop/UniServerZ/UniServerZ/core/apache2 -f C:\\Users\\SziSza10A24\\Desktop\\UniServerZ\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\SziSza10A24\\Desktop\\UniServerZ\\UniServerZ\\core\\apache2'
+[Tue Mar 25 09:14:35.683508 2025] [mpm_winnt:notice] [pid 1184:tid 484] AH00418: Parent: Created child process 8520
+[Tue Mar 25 09:14:35.993949 2025] [mpm_winnt:notice] [pid 8520:tid 472] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 25 09:14:36.730703 2025] [php:error] [pid 8520:tid 1876] [client ::1:50059] script 'C:/Users/SziSza10A24/Desktop/UniServerZ/UniServerZ/www/index.php' not found or unable to stat
