@@ -17,3 +17,9 @@
 [Tue Mar 25 09:14:35.683508 2025] [mpm_winnt:notice] [pid 1184:tid 484] AH00418: Parent: Created child process 8520
 [Tue Mar 25 09:14:35.993949 2025] [mpm_winnt:notice] [pid 8520:tid 472] AH00354: Child: Starting 150 worker threads.
 [Tue Mar 25 09:14:36.730703 2025] [php:error] [pid 8520:tid 1876] [client ::1:50059] script 'C:/Users/SziSza10A24/Desktop/UniServerZ/UniServerZ/www/index.php' not found or unable to stat
+[Wed Mar 26 14:45:55.529542 2025] [core:warn] [pid 2024:tid 488] AH00098: pid file C:/Users/SziSza10A24/Documents/GitHub/10.a-webprog/webprog/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 26 14:45:55.771683 2025] [mpm_winnt:notice] [pid 2024:tid 488] AH00455: Apache/2.4.58 (Win64) PHP/8.3.0 configured -- resuming normal operations
+[Wed Mar 26 14:45:55.771683 2025] [mpm_winnt:notice] [pid 2024:tid 488] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Mar 26 14:45:55.771683 2025] [core:notice] [pid 2024:tid 488] AH00094: Command line: 'C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/SziSza10A24/Documents/GitHub/10.a-webprog/webprog/UniServerZ/core/apache2 -f C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2'
+[Wed Mar 26 14:45:55.773688 2025] [mpm_winnt:notice] [pid 2024:tid 488] AH00418: Parent: Created child process 7856
+[Wed Mar 26 14:45:56.107338 2025] [mpm_winnt:notice] [pid 7856:tid 472] AH00354: Child: Starting 150 worker threads.
