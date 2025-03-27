@@ -13,21 +13,51 @@
 
     </header>
     <main>
-        <div class="card bg-black text white shadow-lg p-4 border-0" style="max-width: 400px; width: 100%">
+        <div class="card bg-black text-white shadow-lg p-4 border-0" style="max-width: 400px; width: 100%">
             <h1 class="text-center mb-3">Összeadás</h1>
             <p class="text-center">Írj be két számot, megmondom az összegüket!</p>
             <form method="POST" class="d-flex flex-column">
-               <div class="mb-3">
-               <label for="num1" class="form-label"></label>
-               <input type="number" class="form-control bg-dark text-white border-secondary" id="num1" name="num1" required>
-               </div>
-               <div class="mb-3">
+                <div class="mb-3">
+                  <label for="num1" class="form-label">Első szám</label>
+                  <input type="number" class="form-control bg-dark text-white border-secondary" id="num1" name="num1" required>
+                </div>
+                <div class="mb-3">
                   <label for="num2" class="form-label">Második szám</label>
                   <input type="number" class="form-control bg-dark text-white border-secondary" id="num2" name="num2" required>
                 </div>
                 <button type="submit" class="btn btn-primary fw-bold">Összeadás</button>
             </form>
+
+            <!-- Ez lesz itt a PHP kód -->
+             <?php
+
+               if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                // if (isset($_POST['num1'])) {
+                //   $a = (int)$_POST['num1'];
+                //  } 
+                //  else {
+                //   $a = 0;
+                //  }
+
+                //  if (isset($_POST['num2'])) {
+                //    $b = (int)$_POST['num2'];
+                //   } 
+                //   else {
+                //     $b = 0;
+                //   }
+
+                //   $sum = $a + $b;
+
+                $a = isset($_POST['num1']) ? (int)$_POST['num1'] : 0;
+                $a = isset($_POST['num2']) ? (int)$_POST['num2'] : 0;
+
+                $sum = $a + $b;
+
+                    echo "<div class='alert alert-primary mt-4 text-center'>Az eredmény: <strong>$sum</strong></div>";
+                }
+             ?>
         </div>
+
     </main>
     <footer>
 
