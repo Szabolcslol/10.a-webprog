@@ -1,0 +1,18 @@
+  // if (isset($_POST['num1'])) {
+                //   $a = (int)$_POST['num1'];
+                //  } 
+                //  else {
+                //   $a = 0;
+                //  }
+
+                //  if (isset($_POST['num2'])) {
+                //    $b = (int)$_POST['num2'];
+                //   } 
+                //   else {
+                //     $b = 0;
+                //   }
+
+                //   $sum = $a + $b;
+
+                $sum = $a + $b;
+                echo "<div class='alert alert-primary mt-4 text-center'>Az eredmény: <strong>$sum</strong></div>";
