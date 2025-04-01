@@ -63,10 +63,12 @@
                           $result = $a / $b;
                           $message = "Az osztás eredménye: <strong>$result</strong>";
                         }
+                        break;
                       case 'even':
                         $evenA = ($a % 2 === 0) ? "páros" : "páratlan";
                         $evenB = ($b % 2 === 0) ? "páros" : "páratlan";
                         $message = "Az első szám: <strong>$evenA</strong>, a második szám <strong>$evenB</strong>";
+                        break;
                       default:
                         $message = "Ismeretlen művelet.";
                         break;
