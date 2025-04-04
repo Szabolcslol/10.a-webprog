@@ -61,3 +61,15 @@
 [Tue Apr 01 08:59:11.599417 2025] [mpm_winnt:notice] [pid 10804:tid 444] AH00418: Parent: Created child process 9892
 [Tue Apr 01 08:59:11.914191 2025] [mpm_winnt:notice] [pid 9892:tid 444] AH00354: Child: Starting 150 worker threads.
 [Tue Apr 01 09:30:55.713206 2025] [php:error] [pid 9892:tid 1852] [client ::1:50708] PHP Parse error:  syntax error, unexpected token "if" in C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\www\\bmi.php on line 45, referer: http://localhost/bmi.php
+[Fri Apr 04 08:02:30.503011 2025] [core:warn] [pid 10624:tid 488] AH00098: pid file C:/Users/SziSza10A24/Documents/GitHub/10.a-webprog/webprog/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 04 08:02:30.747754 2025] [mpm_winnt:notice] [pid 10624:tid 488] AH00455: Apache/2.4.58 (Win64) PHP/8.3.0 configured -- resuming normal operations
+[Fri Apr 04 08:02:30.747754 2025] [mpm_winnt:notice] [pid 10624:tid 488] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri Apr 04 08:02:30.747754 2025] [core:notice] [pid 10624:tid 488] AH00094: Command line: 'C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/SziSza10A24/Documents/GitHub/10.a-webprog/webprog/UniServerZ/core/apache2 -f C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2'
+[Fri Apr 04 08:02:30.756103 2025] [mpm_winnt:notice] [pid 10624:tid 488] AH00418: Parent: Created child process 7948
+[Fri Apr 04 08:02:31.100766 2025] [mpm_winnt:notice] [pid 7948:tid 512] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 04 08:10:13.427940 2025] [core:warn] [pid 6048:tid 444] AH00098: pid file C:/Users/SziSza10A24/Documents/GitHub/10.a-webprog/webprog/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 04 08:10:13.437978 2025] [mpm_winnt:notice] [pid 6048:tid 444] AH00455: Apache/2.4.58 (Win64) PHP/8.3.0 configured -- resuming normal operations
+[Fri Apr 04 08:10:13.437978 2025] [mpm_winnt:notice] [pid 6048:tid 444] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri Apr 04 08:10:13.437978 2025] [core:notice] [pid 6048:tid 444] AH00094: Command line: 'C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/SziSza10A24/Documents/GitHub/10.a-webprog/webprog/UniServerZ/core/apache2 -f C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\SziSza10A24\\Documents\\GitHub\\10.a-webprog\\webprog\\UniServerZ\\core\\apache2'
+[Fri Apr 04 08:10:13.449124 2025] [mpm_winnt:notice] [pid 6048:tid 444] AH00418: Parent: Created child process 12276
+[Fri Apr 04 08:10:13.691052 2025] [mpm_winnt:notice] [pid 12276:tid 440] AH00354: Child: Starting 150 worker threads.
