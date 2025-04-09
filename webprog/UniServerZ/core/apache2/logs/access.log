@@ -142,3 +142,8 @@
 ::1 - - [08/Apr/2025:08:59:42 +0200] "-" 408 - "-" "-"
 ::1 - - [08/Apr/2025:09:27:07 +0200] "GET /ado.php HTTP/1.1" 200 517 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
 ::1 - - [08/Apr/2025:09:27:15 +0200] "GET /bmi.php HTTP/1.1" 200 993 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+::1 - - [09/Apr/2025:14:28:23 +0200] "GET /index.php HTTP/1.1" 200 1035 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+::1 - - [09/Apr/2025:14:28:23 +0200] "GET /css/style.css HTTP/1.1" 304 - "http://localhost/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+::1 - - [09/Apr/2025:14:28:23 +0200] "GET /favicon.ico HTTP/1.1" 404 196 "http://localhost/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+::1 - - [09/Apr/2025:14:28:24 +0200] "GET /index.php HTTP/1.1" 200 1035 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+::1 - - [09/Apr/2025:14:28:34 +0200] "GET /dobokocka.php HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
