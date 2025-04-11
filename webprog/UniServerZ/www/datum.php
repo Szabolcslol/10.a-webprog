@@ -17,15 +17,15 @@
     if($_SERVER ['REQUEST_METHOD'] === "POST") {
       $FirstDate = $_POST("date1");
       $SecondDate  = $_POST("date2");
-      if($FirstDate)([="" && $SecondDate]="") {
+      if($FirstDate = "")([$SecondDate]="") {
         $dateFirst = new DateTime $FirstDate
         $dateSecond = new DateTime $SecondDate
 
         
         #A diff fuggvénnyel kiszámoljuk a két dátum közötti különbséget
-        #--> a napok számát
-        #--> a hónapok számát
-        #--> az évek számát
+        #// a napok számát
+        #// a hónapok számát
+        #// az évek számát
         
         $difference = $dateFirst
 
