@@ -76,3 +76,5 @@
 szotar = {"Pista": "sárga", "János": "piros", "Roland": "kék"}
 print(szotar)
 print(szotar.get("Pista"))
+if szotar.get("asd") is None:
+    print("Ismeretlen név")
