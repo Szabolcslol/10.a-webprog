@@ -1,0 +1,41 @@
+server fasteth0 fasteth1
+fasteth2 wrt300 internet
+switch fasteth03 pc0
+fasteth04 pc1
+fasteth05 pc2
+laptop kártya wpc300N
++ 1 okostelefon
+192.168.1.0/24
+192.168.2.0/24
+config -> display name, host name
+pc0 -> sajat
+       fonok
+       penzugy
+router -> display: iroda hostname: iroda
+internet
+interface GigabitEthernet0/0/0
+ip address 203.0.113.2 255.255.255.0 netmask
+no shutdown
+ip route 0.0.0.0 0.0.0.0 203.0.113.1
+end
+write memory
+nat beéllítás
+interface GigabitEthernet0/0/1
+ip nat inside
+exit
+interface GigabitEthernet0/0/0
+ip nat outside
+exit
+access-list 1 permit 192.168.1.0 0.0.0.255
+ip nat inside source list 1 interface GigabitEthernet0/0/0 overload
+end
+write memory
+
+
+conf t
+enable secret Semmi123!
+
+BELSŐ HÁLÓZATI INTERFÉSZ
+interface GigabitEthernet0/0/1
+ip address 192.168.1.1 255.255.255.0 
+no shutdown
