@@ -47,16 +47,16 @@
 #     print("Az 5 rajta van")
 
 #1. feladat
-filmek = ['avatar', 'star wars', 'harry potter']
+# filmek = ['avatar', 'star wars', 'harry potter']
 
-filmek.append('terminator')
-print(filmek)
+# filmek.append('terminator')
+# print(filmek)
 
-#2. feladat
-filmek.insert(1, 'back to the future')
-print(filmek)
+# #2. feladat
+# filmek.insert(1, 'back to the future')
+# print(filmek)
 
-#3. feladat
-filmek.sort()
-print(filmek)
+# #3. feladat
+# filmek.sort()
+# print(filmek)
 

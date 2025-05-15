@@ -46,8 +46,8 @@ print()
 #         print(f"{i},{j}")
 
 #2. feladat
-for x in range(1, 6):
-    print()
-    for y in range(1, 6):
-        print(y, end="")
-    print()
+# for x in range(1, 6):
+#     print()
+#     for y in range(1, 6):
+#         print(y, end="")
+#     print()
