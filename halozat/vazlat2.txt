@@ -1,0 +1,70 @@
+ena                                      Globális konfigurációs módba lépés
+conf t                                   Továbblépés a konfigurációs módba
+
+DHCP POOL BEÁLLÍTÁSA
+show ip dhcp pool                        	    Meglévő DHCP poolok megtekintése
+no ip dhcp pool POOLNEV                  	    Korábbi DHCP pool törlése (ha szükséges)
+ip dhcp pool POOLNEV                     	    Új DHCP pool létrehozása
+network 192.168.1.0 255.255.255.0        	    Hálózat és alhálózati maszk beállítása
+default-router 192.168.1.1               	    Alapértelmezett átjáró beállítása
+dns-server 8.8.8.8                       	    DNS szerver megadása
+ip dhcp excluded-address 192.168.1.1 192.168.1.10   IP címek kizárása
+end                                      	    Konfiguráció lezárása
+write memory                             	    Konfiguráció mentése
+
+BELSŐ HÁLÓZATI INTERFÉSZ BEÁLLÍTÁSA
+interface GigabitEthernet0/0/1          Belső interfész kiválasztása
+ip address 192.168.1.1 255.255.255.0     IP cím és alhálózati maszk beállítása
+no shutdown                              Interfész aktiválása
+end                                      Konfiguráció lezárása
+write memory                             Konfiguráció mentése
+
+INTERNET OLDALI INTERFÉSZ BEÁLLÍTÁSA (DHCP)
+interface GigabitEthernet0/0/0          Internet oldali interfész kiválasztása
+ip address dhcp                          DHCP-n keresztül kapja az IP címet
+no shutdown                              Interfész aktiválása
+end                                      Konfiguráció lezárása
+write memory                             Konfiguráció mentése
+
+INTERNET OLDALI INTERFÉSZ BEÁLLÍTÁSA (STATIKUS)
+interface GigabitEthernet0/0/0           Internet oldali interfész kiválasztása
+ip address 203.0.113.2 255.255.255.0     Statikus IP cím és alhálózati maszk megadása
+no shutdown                              Interfész aktiválása
+ip route 0.0.0.0 0.0.0.0 203.0.113.1     Alapértelmezett statikus útvonal beállítása
+end                                      Konfiguráció lezárása
+write memory                             Konfiguráció mentése
+
+NAT BEÁLLÍTÁSA
+interface GigabitEthernet0/0/1                              	      Belső interfész kiválasztása
+ip nat inside                                               	      Belső interfész NAT jelölés
+exit                                                                  Kilépés az interfész konfigurációból
+interface GigabitEthernet0/0/0                                        Külső interfész kiválasztása
+ip nat outside                                                        Külső interfész NAT jelölés
+exit                                                                  Kilépés az interfész konfigurációból
+access-list 1 permit 192.168.1.0 0.0.0.255                            Access list a belső hálózatra
+ip nat inside source list 1 interface GigabitEthernet0/0/0 overload   NAT overload konfigurálása
+end                                      			      Konfiguráció lezárása
+write memory                             		              Konfiguráció mentése
+
+ENABLE JELSZÓ ÉS TELNET HOZZÁFÉRÉS
+enable secret Semmi123!                  Enable jelszó
+line vty 0 4                              Telnet portok kiválasztása
+password Telnet123                       VTY jelszó
+login                                    Bejelentkezés engedélyezése
+exit                                     Kilépés a VTY módból
+username admin password admin123         Felhasználó hozzáadása (opcionális)
+write memory                             Konfiguráció mentése
+
+SOHO ROUTER GUI – WIFI BEÁLLÍTÁS
+SSID:             GUEST_WIFI            WiFi hálózat neve
+Hitelesítés:      WPA2-PSK              Biztonsági mód
+Titkosítás:       AES                   Titkosítás típusa
+Jelszó:           Almaf@123!            Hálózati jelszó
+DHCP tartomány:   192.168.1.100–200     IP címkiosztási tartomány
+DNS szerver:      8.8.8.8               DNS beállítás
+
+TESZTPARANCSOK
+ping 192.168.1.1                         Router elérhetősége
+ping 192.168.1.100                       Webszerver pingelése
+telnet 192.168.1.1                       Távoli kapcsolat ellenőrzése
+http://192.168.1.100                     Webszerver elérés böngészőből

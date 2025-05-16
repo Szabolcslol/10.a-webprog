@@ -52,7 +52,7 @@
 #     szam += 1
 
 #1. feladat
-szam = 1
-while szam <= 10:
-    print(szam)
-    szam += 1
+# szam = 1
+# while szam <= 10:
+#     print(szam)
+#     szam += 1

@@ -45,6 +45,6 @@
 #         osszeg += i
 # print(osszeg)
 
-#2. feladat
-for i in range(1, 6):
-    print(i)
+# #2. feladat
+# for i in range(1, 6):
+#     print(i)
