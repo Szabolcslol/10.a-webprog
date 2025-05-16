@@ -1,0 +1,20 @@
+fav icon
+style, bootstrap, java script
+cím
+nav menübe 4 elem
+bekezdés
+kép
+táblázat (2-3 pont bukás ha nem megy)
+lista
+gomb
+lábléc
+betűtípus állítás
+szín
+töréspont
+hover effekt
+style.css-be kommentezni
+
+(pontozó táblát megnézni)
+5.3 bootstrap
+25 feladat
+90 sorból áll
