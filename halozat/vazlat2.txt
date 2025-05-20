@@ -1,7 +1,7 @@
 ena                                      Globális konfigurációs módba lépés
 conf t                                   Továbblépés a konfigurációs módba
 
-DHCP POOL BEÁLLÍTÁSA
+DHCP POOL BEÁLLÍTÁSA  3
 show ip dhcp pool                        	    Meglévő DHCP poolok megtekintése
 no ip dhcp pool POOLNEV                  	    Korábbi DHCP pool törlése (ha szükséges)
 ip dhcp pool POOLNEV                     	    Új DHCP pool létrehozása
@@ -12,7 +12,7 @@ ip dhcp excluded-address 192.168.1.1 192.168.1.10   IP címek kizárása
 end                                      	    Konfiguráció lezárása
 write memory                             	    Konfiguráció mentése
 
-BELSŐ HÁLÓZATI INTERFÉSZ BEÁLLÍTÁSA
+BELSŐ HÁLÓZATI INTERFÉSZ BEÁLLÍTÁSA 1
 interface GigabitEthernet0/0/1          Belső interfész kiválasztása
 ip address 192.168.1.1 255.255.255.0     IP cím és alhálózati maszk beállítása
 no shutdown                              Interfész aktiválása
@@ -26,7 +26,7 @@ no shutdown                              Interfész aktiválása
 end                                      Konfiguráció lezárása
 write memory                             Konfiguráció mentése
 
-INTERNET OLDALI INTERFÉSZ BEÁLLÍTÁSA (STATIKUS)
+INTERNET OLDALI INTERFÉSZ BEÁLLÍTÁSA (STATIKUS) 2
 interface GigabitEthernet0/0/0           Internet oldali interfész kiválasztása
 ip address 203.0.113.2 255.255.255.0     Statikus IP cím és alhálózati maszk megadása
 no shutdown                              Interfész aktiválása
@@ -34,7 +34,7 @@ ip route 0.0.0.0 0.0.0.0 203.0.113.1     Alapértelmezett statikus útvonal beá
 end                                      Konfiguráció lezárása
 write memory                             Konfiguráció mentése
 
-NAT BEÁLLÍTÁSA
+NAT BEÁLLÍTÁSA  4
 interface GigabitEthernet0/0/1                              	      Belső interfész kiválasztása
 ip nat inside                                               	      Belső interfész NAT jelölés
 exit                                                                  Kilépés az interfész konfigurációból
@@ -46,7 +46,7 @@ ip nat inside source list 1 interface GigabitEthernet0/0/0 overload   NAT overlo
 end                                      			      Konfiguráció lezárása
 write memory                             		              Konfiguráció mentése
 
-ENABLE JELSZÓ ÉS TELNET HOZZÁFÉRÉS
+ENABLE JELSZÓ ÉS TELNET HOZZÁFÉRÉS 
 enable secret Semmi123!                  Enable jelszó
 line vty 0 4                              Telnet portok kiválasztása
 password Telnet123                       VTY jelszó
