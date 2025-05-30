@@ -1,0 +1,8 @@
+Iskolának a hálózatát kiépíteni
+1 db internet
+1 db ISR4331
+7 db WRT300N Router
+Különböző hálózat
+Sorrendben az ip-ket
+Minden teremben egy wifis laptop és telefon, jelszó terem neve és száma
+Eszközök nevei logikusak legyenek
