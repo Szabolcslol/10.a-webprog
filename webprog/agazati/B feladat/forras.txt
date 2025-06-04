@@ -1,0 +1,40 @@
+Oldalcím: Mancsos Szépségszalon
+
+Menüpontok:
+- Rólunk
+- Szolgáltatások
+- Áraink
+- Kapcsolat
+
+Főcím (h1): Üdvözlünk a Mancsos Szépségszalonban!
+
+Bekezdés (p): Nálunk a négylábú vendégek is VIP bánásmódban részesülnek. Modern felszerelésekkel, szeretetteljes gondoskodással várjuk kis kedvencedet!
+
+Gomb szövege: Időpontfoglalás
+
+Főkép – fájlnév: haziallat.webp  
+Főkép – alt: Kutyus kozmetikai kezelés közben  
+Főkép – title: Mancsos kezelés akcióban
+
+Táblázat címe (caption): Szolgáltatási árlista  
+Táblázat fejlécek:
+- Szolgáltatás
+- Kisállat típusa
+- Ár (Ft)
+
+Táblázat tartalom:
+- Fürdetés, Kistestű kutya, 4500 Ft  
+- Szőrnyírás, Közepes testű kutya, 6000 Ft  
+- Karomvágás, Bármelyik, 2000 Ft  
+- Fültisztítás, Bármelyik, 1500 Ft  
+- Teljes csomag, Nagytestű kutya, 9500 Ft
+
+Lista címe (h2): Miért válassz minket?
+
+Lista elemek:
+- Tapasztalt és állatbarát csapat  
+- Kímélő, természetes alapanyagú kozmetikumok  
+- Rövid várakozási idő  
+- Ingyenes első konzultáció
+
+Lábléc szöveg: © 2025 Mancsos Szépségszalon – Minden jog fenntartva.
